@@ -1,0 +1,91 @@
+<!--Abdullah Hafeji|8984543-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Albert,Einstein,Biography,German,Physicist">
+    <meta name="description" content="A website about Albert Einstein">
+    <title>Albert Einstein</title>
+</head>
+<body>
+    <header>
+        <h1>Albert Einstein</h1>
+    </header>
+    <main>
+        <section id="biography">
+            <h2>Biography</h2>
+            <blockquote cite="https://en.wikipedia.org/wiki/Albert_Einstein">
+                Albert Einstein was a German-born theoretical physicist who is best known for developing the theory of relativity. Einstein also made important contributions to quantum mechanics. His mass-energy equivalence formula <em>E = mc<sup>2</sup></em>, which arises from special relativity, has been called "the world's most famous equation".He received the 1921 Nobel Prize in Physics for his services to theoretical physics, and especially for his discovery of the law of the photoelectric effect.
+            </blockquote>
+        </section>
+         
+        
+        <section id="image">
+            <h2>Photo of Einstein</h2>
+            <figure>
+                <!--alt text from ChatGPT-->
+                <img width="350" height="508" alt="Black and white photograph of Albert Einstein sitting at a desk cluttered with papers and books. He is wearing a dark suit with a white shirt and tie, and has a focused expression while looking directly at the camera. A desk lamp with a fabric shade is positioned to his left, casting light on the workspace. Bookshelves filled with books are visible in the background, giving the setting an academic atmosphere." src="images/einstein-office-photo-3467-landscape-medium-gallery-2x.jpg" alt=""> 
+                <figcaption>Albert Einstein in his office at the University of Berlin, 1920. Source: "The Solar Eclipse of May 29, 1919, and the Einstein Effect, in The Scientific Monthly 10:4 (1920), 418-422, p. 418 Photographer unknown</figcaption>
+            </figure>
+            
+        </section>
+
+
+        <section id="quote">
+            <h2>Quote</h2>
+            <q cite="https://www.brainyquote.com/quotes/albert_einstein_737829">Life is like riding a bicycle. To keep your balance, you must keep moving.</q><cite>Albert Einstein</cite>
+        </section>
+
+
+        <section id="Video">
+            <h2>Video</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/LxTqahMC73U?si=UNE9w_y3qKQhlLFA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+    </main>
+    <aside>
+        <section id="sources">
+            <h2>Sources</h2>
+            <ul>
+                <li><a href="https://en.wikipedia.org/wiki/Albert_Einstein" target="_blank" title="Albert Einstein Wikipedia Page">Wikipedia</a></li>
+                <li><a href="https://www.youtube.com/watch?v=LxTqahMC73U" target="_blank" title="Albert Einstein Video">Youtube</a></li>
+                <li><a href="https://www.nobelprize.org/prizes/physics/1921/einstein/photo-gallery/" target="_blank" title="Albert Einstein Photo Gallery">Nobelprize.org</a></li>
+            </ul>
+        </section>
+        <section id="contact us">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name" class="form-lable">Name:</label>
+                <br>
+                <input type="text" name="name" id="name" class="form-control" required placeholder="Your Name">
+                <br>
+                <label for="email" class="form-lable">E-mail:</label>
+                <br>
+                <input type="text" name="email" id="email" class="form-control" required autofocus placeholder="Your E-mail">
+                <br>
+                <label for="tel" class="form-lable">Phone Number</label>
+                <br>
+                <input type="tel" name="tel" id="tel" class="form-control" required autofocus placeholder="Your Phone Number">
+                <br>
+                <label for="feedback" class="form-lable">Feedback:</label>
+                <br>
+                <textarea name="feedback" id="feedback" class="form-control" placeholder="Your Feedback"></textarea>
+                <br>
+                <label for="reason" class="form-lable">Reason for Contact</label>
+                <br>
+                <select name="reason" id="reason" class="form-control">
+                    <option selected value="">Reason for Contact</option>
+                    <option  id="Feedback" value="feedback">Feedback</option>
+                    <option id="other" value="Other">Other</option>
+                </select>
+                <br>
+                <input type="submit" id="submit" name="submit">
+
+            </form>
+        </section>
+    </aside>
+    <footer>
+        <p>Abdullah Hafeji &copy;2025</p>
+    </footer>
+</body>
+</html>
