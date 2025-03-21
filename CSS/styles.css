@@ -38,24 +38,35 @@ h1 {
     color: #fff;
 }
 
-h2 {
-    font-size: 1.75rem;
-    font-family: Georgia, 'Times New Roman', Times, serif ;
-    color: #d369ff;
-}
-
 main {
     float: left;
     width: 70%;
-    padding: 1rem;
+}
+
+main h2 {
+    font-size: 1.75rem;
+    font-variant: small-caps;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-style: oblique;
+    color: #d369ff;
 }
 
 aside {
     float: right;
     width: 30%;
-    padding: 1rem;
     background-color: #240046;
     border: 3px solid #6a0dad;
+}
+
+aside h2 {
+    font-size: 1.75rem;
+    font-variant: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    color: #dd8dff;
+}
+
+.padding {
+    padding: 1rem;
 }
 
 section {
@@ -88,7 +99,7 @@ q {
     display: block;
     margin: 1rem 0;
     color: #fff;
-    box-shadow: 3px 3px 5px rgba(255, 255, 255, 0.2);
+    box-shadow: 3px 3px 5px #b300ff;
 }
 
 figure {
@@ -120,8 +131,10 @@ iframe {
 
 
 /* Aside element styles */
-ul {
+ul, form {
     list-style: none;
+    line-height: 1.75rem;
+    color: #e0d7ff;
 }
 
 a {
@@ -132,6 +145,15 @@ a {
 
 a:hover {
     color: #ff00ff;
+}
+
+form {
+    font-weight: 500;
+    font-variant: normal;
+    text-align: center ;
+    width: 100%;
+    height: auto;
+
 }
 
 footer {
